@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #B41C28;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.fotopage{
+    display: flex;
+    margin-top: 50px;
+}
+
+.secaocontact {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+}
+
+form{
+    color: aliceblue;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 25px;
+}
+ 
+h2{
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.title{
+    color: #ffffff;
+    background-color: rgba(109, 64, 24, 0);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#name{
+    width: 80%;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#email{
+    width: 80%;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#text{
+    width: 80%;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(142, 7, 7);
+    color: #ffffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+img:hover{
+    transform: scale(1.02);
+}
